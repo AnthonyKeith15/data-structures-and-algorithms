@@ -143,6 +143,7 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 const citiesAtoJ = (arr) => {
   let pattern = /^[A-J]/i; // Regular expression pattern matching cities starting with A-J
   let filteredCities = arr.filter(city => pattern.test(city)); // Filter city names based on pattern match
+  
   return filteredCities;
 };
 
