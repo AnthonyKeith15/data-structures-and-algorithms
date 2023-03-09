@@ -23,7 +23,7 @@ Returns: ['dyoll', 'eimaj'];
 ------------------------------------------------------------------------------------------------ */
 
 const getNames = (arr) => {
-  return arr.map((element) => {return element.name.split('').reverse().join('');});
+  return arr.map(element => element.name.split('').reverse().join(''));
 };
 
 /* ------------------------------------------------------------------------------------------------
