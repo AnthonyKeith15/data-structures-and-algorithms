@@ -136,14 +136,12 @@ const isCapitalized = (str) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
-
 Write a function named citiesAtoJ that takes in an array of city names and uses a regular expression pattern to return a new array containing any cities that begin with the letters A through J, inclusive.
 ------------------------------------------------------------------------------------------------ */
 
 const citiesAtoJ = (arr) => {
   let pattern = /^[A-J]/i; // Regular expression pattern matching cities starting with A-J
   let filteredCities = arr.filter(city => pattern.test(city)); // Filter city names based on pattern match
-  
   return filteredCities;
 };
 
