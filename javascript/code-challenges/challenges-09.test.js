@@ -153,6 +153,7 @@ const hasChildrenValues = (arr, character) => {
     return !!children && children.length > 0;
   }
   return false;
+  
 
 };
 
