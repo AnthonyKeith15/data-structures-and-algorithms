@@ -28,6 +28,7 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
   return starWarsArr.sort((a, b) => parseInt(b.height) - parseInt(a.height));
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
