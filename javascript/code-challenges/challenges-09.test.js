@@ -150,10 +150,10 @@ const hasChildrenValues = (arr, character) => {
   let person = arr.find(element => element.name === character);
   if (person) {
     let children = Object.values(person).find(val => Array.isArray(val));
-    return !!children && children.length > 0;
+    return children && children.length > 0;
   }
   return false;
-  
+
 
 };
 
